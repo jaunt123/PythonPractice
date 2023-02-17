@@ -13,7 +13,7 @@ if  age is not None:
 name = input("Please enter the name:")
 age = int(input("Please enter the age, {0}?".format(name)))
 #age = None # int(input("Please enter the age, {0}?".format(name)))
-if  age is not None:
+if age is not None:
     if age > 18:
         print("You are allowed to vote")
     elif age == 18:
